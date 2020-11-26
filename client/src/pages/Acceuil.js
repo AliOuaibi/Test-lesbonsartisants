@@ -63,6 +63,7 @@ class Acceuil extends Component {
         this.handleOpen2 = this.handleOpen.bind(this);
         this.handleClose2 = this.handleClose.bind(this);
     }
+    
     handleOpen = async () => {
         this.setState({ open: true });
     };
